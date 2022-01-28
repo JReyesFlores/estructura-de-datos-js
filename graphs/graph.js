@@ -7,7 +7,6 @@ const graph = [
 ];
 
 // Adjacent List
-//              0      1        2        3
 const graph = [[2], [2, 3], [0, 1, 3], [1, 2]];
 const graph = {
   0: [2],

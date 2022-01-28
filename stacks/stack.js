@@ -1,35 +1,13 @@
 class Node {
-  constructor(value) {
-    this.value = value;
-    this.next = null;
-  }
+  constructor() {}
 }
 //Utiliza la métodología LIFO (Last In First Out) => Primero en llegar es el útlimo en salir.
 class Stack {
-  constructor() {
-    this.top = null;
-    this.bottom = null;
-    this.length = 0;
-  }
+  constructor() {}
 
-  peek() {
-    return this.top;
-  }
+  peek() {}
 
-  push(value) {
-    const newNode = new Node(value);
-    if (this.length === 0) {
-      this.top = newNode;
-      this.bottom = newNode;
-    } else {
-      const holdingPointer = this.top;
-      this.top = newNode;
-      this.top.next = holdingPointer;
-    }
-
-    this.length++;
-    return this;
-  }
+  push(value) {}
 
   //definir el método pop (eliminar siempre el elemento cabecera)
 }

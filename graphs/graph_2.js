@@ -1,4 +1,4 @@
-class MiGrafo {
+class MiGraph {
   constructor() {}
 
   addVertex(node) {}

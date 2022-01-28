@@ -1,4 +1,4 @@
-class HashTable {
+class MiHashTable {
   constructor(size) {}
 
   hashMethod(key) {
